@@ -30,3 +30,6 @@ Execute below queries on mysql workbench or any db viewer
 3. SET @@global.sql_mode= ''
 NOTE: MySQL will truncate any insert value that exceeds the specified column width.
 to make this without error try switch your SQL mode to not use STRICT.
+<br />
+<br />
+4. Run main.py file to insert records from jsondata.json 

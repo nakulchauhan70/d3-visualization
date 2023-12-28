@@ -17,7 +17,7 @@ def print_hi(name):
 def read_json():
     with open('jsondata.json', encoding="utf8") as f:
         data = json.load(f)
-        # print(data)
+        print(data)
 
     return data
 
